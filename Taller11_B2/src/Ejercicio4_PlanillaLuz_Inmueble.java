@@ -54,7 +54,7 @@ public class Ejercicio4_PlanillaLuz_Inmueble {
     public static void calcularPredio(String nombre, String cedula){
         Scanner tcl = new Scanner(System.in);
         double vInmueble, predioInmu;
-        System.out.println("Ingrese el valor del Inmueble");
+        System.out.print("Ingrese el valor del Inmueble");
         vInmueble = tcl.nextDouble();
         predioInmu = (vInmueble * 0.02);
         System.out.println("Cliente " + nombre + " con cédula " + cedula + " tiene un bien inmueble valorado en $" + vInmueble + " y tiene que pagar de predio $" + predioInmu);        
