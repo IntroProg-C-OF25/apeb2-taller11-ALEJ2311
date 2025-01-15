@@ -14,9 +14,8 @@ import java.util.Scanner;
 public class Ejercicio4_PlanillaLuz_Inmueble {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        String nombre, cedula, costo;
-        int n;
-        double costKilo, numKilo;
+        String nombre, cedula;
+        int n;        
         System.out.println("BIENVENID@");
         System.out.print("INGRESE SU NOMBRE: ");
         nombre = tcl.nextLine();
@@ -34,6 +33,7 @@ public class Ejercicio4_PlanillaLuz_Inmueble {
                 break;
             case 2:
                 calcularPredio(nombre, cedula);
+                break;
             default:
                 System.out.println("¡¡OPCION INVALIDA!!");
         }

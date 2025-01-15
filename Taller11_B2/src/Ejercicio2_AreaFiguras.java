@@ -42,7 +42,7 @@ public class Ejercicio2_AreaFiguras {
                 break;
             case 3:
                 System.out.println("AREA DEL RECTANGULO ES: " + areaRectangulo(base, altura, area));
-                
+                break;
             default:
                 System.out.println("ERROR");
         }
